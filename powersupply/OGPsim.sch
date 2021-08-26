@@ -662,4 +662,20 @@ Wire Wire Line
 Wire Wire Line
 	2850 4000 2850 4200
 Connection ~ 2850 4200
+$Comp
+L Device:R R8
+U 1 1 6128484D
+P 4950 2900
+F 0 "R8" H 5020 2946 50  0000 L CNN
+F 1 "200" H 5020 2855 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 4880 2900 50  0001 C CNN
+F 3 "~" H 4950 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/delta-electronics-cyntec/PFR05S-201-FNH/9761549" H 4950 2900 50  0001 C CNN "DigikeyLink"
+F 5 "2037-PFR05S-201-FNHCT-ND" H 4950 2900 50  0001 C CNN "DigikeyPart"
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2750 4700 2750
+Connection ~ 4700 2750
 $EndSCHEMATC

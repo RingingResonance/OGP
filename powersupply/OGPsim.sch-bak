@@ -24,8 +24,6 @@ F 3 "" H 9400 8400 50  0001 C CNN
 	1    9400 8400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9400 7600 9400 7750
 $Comp
 L Device:R R5
 U 1 1 5CFED5E5
@@ -565,109 +563,6 @@ F 3 "" H 13450 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 13450 8200
-$Comp
-L Device:LED D7
-U 1 1 5EDDA1A9
-P 10050 6850
-F 0 "D7" V 10088 6733 50  0000 R CNN
-F 1 "IR_LED" V 9997 6733 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 10050 6850 50  0001 C CNN
-F 3 "~" H 10050 6850 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 10050 6850 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 10050 6850 50  0001 C CNN "DigikeyPart"
-	1    10050 6850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9400 7000 9600 7000
-Wire Wire Line
-	9600 7000 9600 7600
-Wire Wire Line
-	9600 7600 9750 7600
-Wire Wire Line
-	9750 7000 9900 7000
-Wire Wire Line
-	9900 7000 9900 7600
-Wire Wire Line
-	9900 7600 10050 7600
-$Comp
-L Device:LED D8
-U 1 1 60B37ABB
-P 10050 7150
-F 0 "D8" V 10088 7033 50  0000 R CNN
-F 1 "IR_LED" V 9997 7033 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 10050 7150 50  0001 C CNN
-F 3 "~" H 10050 7150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 10050 7150 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 10050 7150 50  0001 C CNN "DigikeyPart"
-	1    10050 7150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D9
-U 1 1 60B38145
-P 10050 7450
-F 0 "D9" V 10088 7333 50  0000 R CNN
-F 1 "IR_LED" V 9997 7333 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 10050 7450 50  0001 C CNN
-F 3 "~" H 10050 7450 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 10050 7450 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 10050 7450 50  0001 C CNN "DigikeyPart"
-	1    10050 7450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 60B38499
-P 9750 7150
-F 0 "D5" V 9788 7033 50  0000 R CNN
-F 1 "IR_LED" V 9697 7033 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 9750 7150 50  0001 C CNN
-F 3 "~" H 9750 7150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 9750 7150 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 9750 7150 50  0001 C CNN "DigikeyPart"
-	1    9750 7150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D6
-U 1 1 60B387A6
-P 9750 7450
-F 0 "D6" V 9788 7333 50  0000 R CNN
-F 1 "IR_LED" V 9697 7333 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 9750 7450 50  0001 C CNN
-F 3 "~" H 9750 7450 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 9750 7450 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 9750 7450 50  0001 C CNN "DigikeyPart"
-	1    9750 7450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 60B38BDE
-P 9400 7150
-F 0 "D1" V 9438 7033 50  0000 R CNN
-F 1 "IR_LED" V 9347 7033 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 9400 7150 50  0001 C CNN
-F 3 "~" H 9400 7150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 9400 7150 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 9400 7150 50  0001 C CNN "DigikeyPart"
-	1    9400 7150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 60B38F2C
-P 9400 7450
-F 0 "D2" V 9438 7333 50  0000 R CNN
-F 1 "IR_LED" V 9347 7333 50  0000 R CNN
-F 2 "LEDs:LED_0603" H 9400 7450 50  0001 C CNN
-F 3 "~" H 9400 7450 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/sunled/XZTNI53W-1/6709136" H 9400 7450 50  0001 C CNN "DigikeyLink"
-F 5 "1497-1367-1-ND" H 9400 7450 50  0001 C CNN "DigikeyPart"
-	1    9400 7450
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C C7
 U 1 1 612749BD

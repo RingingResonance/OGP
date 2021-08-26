@@ -143,32 +143,6 @@ F 5 "RB521S30T1GOSCT-ND" H 5000 3400 50  0001 C CNN "DigikeyPart"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 U2
-U 2 1 61300AA2
-P 3350 4000
-F 0 "U2" H 3450 4150 50  0000 C CNN
-F 1 "AD8668ARZ-ND" H 3350 4276 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3300 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3400 4200 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8668ARZ/1141740?s=N4IgTCBcDaIIIBEAcA2FS4CUBaBaAcgiALoC%2BQA" H 3350 4000 50  0001 C CNN "DigikeyLink"
-F 5 "AD8668ARZ-ND" H 3350 4000 50  0001 C CNN "DigikeyPart"
-	2    3350 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 61300AAB
-P 3800 3400
-F 0 "C13" V 3548 3400 50  0000 C CNN
-F 1 "1nf" V 3639 3400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 3838 3250 50  0001 C CNN
-F 3 "~" H 3800 3400 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 3800 3400 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1489-1-ND" H 3800 3400 50  0001 C CNN "DigikeyPart"
-	1    3800 3400
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:L L6
 U 1 1 61300AB5
 P 4850 3550
@@ -181,78 +155,6 @@ F 5 "445-6389-1-ND" H 4850 3550 50  0001 C CNN "DigikeyPart"
 	1    4850 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:LM324 U2
-U 1 1 61300ABD
-P 3350 3400
-F 0 "U2" H 3350 3767 50  0000 C CNN
-F 1 "AD8668ARZ-ND" H 3350 3676 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3300 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3400 3600 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8668ARZ/1141740?s=N4IgTCBcDaIIIBEAcA2FS4CUBaBaAcgiALoC%2BQA" H 3350 3400 50  0001 C CNN "DigikeyLink"
-F 5 "AD8668ARZ-ND" H 3350 3400 50  0001 C CNN "DigikeyPart"
-	1    3350 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 3400 3650 3650
-Wire Wire Line
-	3650 3650 3050 3650
-Wire Wire Line
-	3050 3650 3050 3500
-Wire Wire Line
-	3050 4100 3050 4250
-Wire Wire Line
-	3050 4250 3650 4250
-Wire Wire Line
-	3650 4250 3650 4000
-Connection ~ 3650 3400
-Connection ~ 3950 3400
-$Comp
-L Device:C C15
-U 1 1 61300ACF
-P 4250 3550
-F 0 "C15" V 4100 3550 50  0000 C CNN
-F 1 "1nf" V 4400 3550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 4288 3400 50  0001 C CNN
-F 3 "~" H 4250 3550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 4250 3550 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1489-1-ND" H 4250 3550 50  0001 C CNN "DigikeyPart"
-	1    4250 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C17
-U 1 1 61300AD7
-P 4550 3550
-F 0 "C17" H 4350 3500 50  0000 C CNN
-F 1 "10nf" H 4350 3600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 4588 3400 50  0001 C CNN
-F 3 "~" H 4550 3550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 4550 3550 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1028-1-ND" H 4550 3550 50  0001 C CNN "DigikeyPart"
-	1    4550 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 61300ADF
-P 4400 3400
-F 0 "R14" V 4300 3350 50  0000 L CNN
-F 1 "1K" V 4200 3400 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 4330 3400 50  0001 C CNN
-F 3 "~" H 4400 3400 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/yageo/RT0402FRE071KL/1071857" H 4400 3400 50  0001 C CNN "DigikeyLink"
-F 5 "YAG1234CT-ND" H 4400 3400 50  0001 C CNN "DigikeyPart"
-	1    4400 3400
-	0    1    1    0   
-$EndComp
-Connection ~ 4250 3400
-Wire Wire Line
-	4550 3700 4250 3700
-Wire Wire Line
-	3950 3700 4250 3700
-Connection ~ 4250 3700
 $Comp
 L Device:R R18
 U 1 1 61300AEC
@@ -295,65 +197,6 @@ F 5 "RB521S30T1GOSCT-ND" H 5000 4000 50  0001 C CNN "DigikeyPart"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C14
-U 1 1 61300B07
-P 3800 4000
-F 0 "C14" V 3548 4000 50  0000 C CNN
-F 1 "1nf" V 3639 4000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 3838 3850 50  0001 C CNN
-F 3 "~" H 3800 4000 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 3800 4000 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1489-1-ND" H 3800 4000 50  0001 C CNN "DigikeyPart"
-	1    3800 4000
-	0    1    1    0   
-$EndComp
-Connection ~ 3950 4000
-$Comp
-L Device:C C16
-U 1 1 61300B10
-P 4250 4150
-F 0 "C16" V 4400 4150 50  0000 C CNN
-F 1 "1nf" H 4150 4250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 4288 4000 50  0001 C CNN
-F 3 "~" H 4250 4150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 4250 4150 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1489-1-ND" H 4250 4150 50  0001 C CNN "DigikeyPart"
-	1    4250 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 61300B18
-P 4550 4150
-F 0 "C18" H 4450 4050 50  0000 C CNN
-F 1 "10nf" H 4350 4150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 4588 4000 50  0001 C CNN
-F 3 "~" H 4550 4150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 4550 4150 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1028-1-ND" H 4550 4150 50  0001 C CNN "DigikeyPart"
-	1    4550 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 61300B20
-P 4400 4000
-F 0 "R15" H 4200 3950 50  0000 L CNN
-F 1 "1K" V 4300 4000 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" V 4330 4000 50  0001 C CNN
-F 3 "~" H 4400 4000 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/yageo/RT0402FRE071KL/1071857" H 4400 4000 50  0001 C CNN "DigikeyLink"
-F 5 "YAG1234CT-ND" H 4400 4000 50  0001 C CNN "DigikeyPart"
-	1    4400 4000
-	0    1    1    0   
-$EndComp
-Connection ~ 4250 4000
-Wire Wire Line
-	4550 4300 4250 4300
-Wire Wire Line
-	3950 4300 4250 4300
-Connection ~ 4250 4300
-$Comp
 L Device:R R19
 U 1 1 61300B2C
 P 5300 4000
@@ -391,29 +234,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 3400 5450 3400
 Connection ~ 5450 3400
-Connection ~ 3650 4000
-$Comp
-L power:+4V #PWR0104
-U 1 1 61300B4F
-P 4250 4300
-F 0 "#PWR0104" H 4250 4150 50  0001 C CNN
-F 1 "+4V" H 4265 4473 50  0000 C CNN
-F 2 "" H 4250 4300 50  0001 C CNN
-F 3 "" H 4250 4300 50  0001 C CNN
-	1    4250 4300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+4V #PWR0105
-U 1 1 61300B55
-P 4250 3700
-F 0 "#PWR0105" H 4250 3550 50  0001 C CNN
-F 1 "+4V" H 4150 3750 50  0000 C CNN
-F 2 "" H 4250 3700 50  0001 C CNN
-F 3 "" H 4250 3700 50  0001 C CNN
-	1    4250 3700
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+4V #PWR0106
 U 1 1 61300B5B
@@ -610,6 +430,200 @@ F 5 "YAG2305CT-ND" H 8700 3950 50  0001 C CNN "DigikeyPart"
 	0    1    1    0   
 $EndComp
 $Comp
+L Device:C C23
+U 1 1 61300C0B
+P 7350 4000
+F 0 "C23" H 7250 4150 50  0000 C CNN
+F 1 "4nf" V 7189 4000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 7388 3850 50  0001 C CNN
+F 3 "~" H 7350 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B392KB5NNNC/3887220" H 7350 4000 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1562-1-ND" H 7350 4000 50  0001 C CNN "DigikeyPart"
+	1    7350 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 7350 3850
+$Comp
+L Amplifier_Operational:LM324 U2
+U 2 1 61300AA2
+P 3350 4000
+F 0 "U2" H 3450 4150 50  0000 C CNN
+F 1 "AD8668ARZ-ND" H 3350 4276 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3300 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3400 4200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8668ARZ/1141740?s=N4IgTCBcDaIIIBEAcA2FS4CUBaBaAcgiALoC%2BQA" H 3350 4000 50  0001 C CNN "DigikeyLink"
+F 5 "AD8668ARZ-ND" H 3350 4000 50  0001 C CNN "DigikeyPart"
+	2    3350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 61300AAB
+P 3800 3400
+F 0 "C13" V 3548 3400 50  0000 C CNN
+F 1 "1nf" V 3639 3400 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 3838 3250 50  0001 C CNN
+F 3 "~" H 3800 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 3800 3400 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1489-1-ND" H 3800 3400 50  0001 C CNN "DigikeyPart"
+	1    3800 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U2
+U 1 1 61300ABD
+P 3350 3400
+F 0 "U2" H 3350 3767 50  0000 C CNN
+F 1 "AD8668ARZ-ND" H 3350 3676 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3300 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3400 3600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8668ARZ/1141740?s=N4IgTCBcDaIIIBEAcA2FS4CUBaBaAcgiALoC%2BQA" H 3350 3400 50  0001 C CNN "DigikeyLink"
+F 5 "AD8668ARZ-ND" H 3350 3400 50  0001 C CNN "DigikeyPart"
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3400 3650 3650
+Wire Wire Line
+	3650 3650 3050 3650
+Wire Wire Line
+	3050 3650 3050 3500
+Wire Wire Line
+	3050 4100 3050 4250
+Wire Wire Line
+	3050 4250 3650 4250
+Wire Wire Line
+	3650 4250 3650 4000
+Connection ~ 3650 3400
+Connection ~ 3950 3400
+$Comp
+L Device:C C15
+U 1 1 61300ACF
+P 4250 3550
+F 0 "C15" V 4100 3550 50  0000 C CNN
+F 1 "1nf" V 4400 3550 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4288 3400 50  0001 C CNN
+F 3 "~" H 4250 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 4250 3550 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1489-1-ND" H 4250 3550 50  0001 C CNN "DigikeyPart"
+	1    4250 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 61300AD7
+P 4550 3550
+F 0 "C17" H 4350 3500 50  0000 C CNN
+F 1 "10nf" H 4350 3600 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4588 3400 50  0001 C CNN
+F 3 "~" H 4550 3550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 4550 3550 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1028-1-ND" H 4550 3550 50  0001 C CNN "DigikeyPart"
+	1    4550 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 61300ADF
+P 4400 3400
+F 0 "R14" V 4300 3350 50  0000 L CNN
+F 1 "1K" V 4200 3400 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 4330 3400 50  0001 C CNN
+F 3 "~" H 4400 3400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RT0402FRE071KL/1071857" H 4400 3400 50  0001 C CNN "DigikeyLink"
+F 5 "YAG1234CT-ND" H 4400 3400 50  0001 C CNN "DigikeyPart"
+	1    4400 3400
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 3400
+Wire Wire Line
+	4550 3700 4250 3700
+Wire Wire Line
+	3950 3700 4250 3700
+Connection ~ 4250 3700
+$Comp
+L Device:C C14
+U 1 1 61300B07
+P 3800 4000
+F 0 "C14" V 3548 4000 50  0000 C CNN
+F 1 "1nf" V 3639 4000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 3838 3850 50  0001 C CNN
+F 3 "~" H 3800 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 3800 4000 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1489-1-ND" H 3800 4000 50  0001 C CNN "DigikeyPart"
+	1    3800 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 3950 4000
+$Comp
+L Device:C C16
+U 1 1 61300B10
+P 4250 4150
+F 0 "C16" V 4400 4150 50  0000 C CNN
+F 1 "1nf" H 4150 4250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4288 4000 50  0001 C CNN
+F 3 "~" H 4250 4150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B102JB5NNNC/3887147" H 4250 4150 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1489-1-ND" H 4250 4150 50  0001 C CNN "DigikeyPart"
+	1    4250 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 61300B18
+P 4550 4150
+F 0 "C18" H 4450 4050 50  0000 C CNN
+F 1 "10nf" H 4350 4150 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4588 4000 50  0001 C CNN
+F 3 "~" H 4550 4150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 4550 4150 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1028-1-ND" H 4550 4150 50  0001 C CNN "DigikeyPart"
+	1    4550 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61300B20
+P 4400 4000
+F 0 "R15" H 4200 3950 50  0000 L CNN
+F 1 "1K" V 4300 4000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 4330 4000 50  0001 C CNN
+F 3 "~" H 4400 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RT0402FRE071KL/1071857" H 4400 4000 50  0001 C CNN "DigikeyLink"
+F 5 "YAG1234CT-ND" H 4400 4000 50  0001 C CNN "DigikeyPart"
+	1    4400 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 4000
+Wire Wire Line
+	4550 4300 4250 4300
+Wire Wire Line
+	3950 4300 4250 4300
+Connection ~ 4250 4300
+Connection ~ 3650 4000
+$Comp
+L power:+4V #PWR0104
+U 1 1 61300B4F
+P 4250 4300
+F 0 "#PWR0104" H 4250 4150 50  0001 C CNN
+F 1 "+4V" H 4265 4473 50  0000 C CNN
+F 2 "" H 4250 4300 50  0001 C CNN
+F 3 "" H 4250 4300 50  0001 C CNN
+	1    4250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+4V #PWR0105
+U 1 1 61300B55
+P 4250 3700
+F 0 "#PWR0105" H 4250 3550 50  0001 C CNN
+F 1 "+4V" H 4150 3750 50  0000 C CNN
+F 2 "" H 4250 3700 50  0001 C CNN
+F 3 "" H 4250 3700 50  0001 C CNN
+	1    4250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
 L Device:R R12
 U 1 1 61300BEB
 P 4100 3400
@@ -661,20 +675,6 @@ F 5 "RR05P300DCT-ND" H 3950 4150 50  0001 C CNN "DigikeyPart"
 	1    3950 4150
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C23
-U 1 1 61300C0B
-P 7350 4000
-F 0 "C23" H 7250 4150 50  0000 C CNN
-F 1 "4nf" V 7189 4000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 7388 3850 50  0001 C CNN
-F 3 "~" H 7350 4000 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B392KB5NNNC/3887220" H 7350 4000 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1562-1-ND" H 7350 4000 50  0001 C CNN "DigikeyPart"
-	1    7350 4000
-	-1   0    0    1   
-$EndComp
-Connection ~ 7350 3850
 Wire Wire Line
 	4550 3400 4850 3400
 Connection ~ 4550 3400
@@ -691,4 +691,116 @@ Wire Wire Line
 	4850 4300 4550 4300
 Connection ~ 4850 4300
 Connection ~ 4550 4300
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 6127271D
+P 2650 3750
+F 0 "J1" H 2568 3425 50  0000 C CNN
+F 1 "Conn_01x02" H 2568 3516 50  0000 C CNN
+F 2 "Connect:GS2" H 2650 3750 50  0001 C CNN
+F 3 "~" H 2650 3750 50  0001 C CNN
+	1    2650 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 612740F0
+P 9700 3750
+F 0 "J?" V 9664 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 9850 3750 50  0000 R CNN
+F 2 "Connect:GS2" H 9700 3750 50  0001 C CNN
+F 3 "~" H 9700 3750 50  0001 C CNN
+	1    9700 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61274C0F
+P 9200 3750
+F 0 "J?" V 9164 3562 50  0000 R CNN
+F 1 "Conn_01x02" V 9350 4050 50  0000 R CNN
+F 2 "Connect:GS2" H 9200 3750 50  0001 C CNN
+F 3 "~" H 9200 3750 50  0001 C CNN
+	1    9200 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61276203
+P 9200 4150
+F 0 "J?" V 9072 3962 50  0000 R CNN
+F 1 "Conn_01x02" V 9350 4450 50  0000 R CNN
+F 2 "Connect:GS2" H 9200 4150 50  0001 C CNN
+F 3 "~" H 9200 4150 50  0001 C CNN
+	1    9200 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61276895
+P 9700 4150
+F 0 "J?" V 9572 3962 50  0000 R CNN
+F 1 "Conn_01x02" V 9850 4200 50  0000 R CNN
+F 2 "Connect:GS2" H 9700 4150 50  0001 C CNN
+F 3 "~" H 9700 4150 50  0001 C CNN
+	1    9700 4150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9200 3950 8850 3950
+Connection ~ 9200 3950
+$Comp
+L power:GND #PWR?
+U 1 1 6127D9E3
+P 9600 4350
+F 0 "#PWR?" H 9600 4100 50  0001 C CNN
+F 1 "GND" H 9605 4177 50  0000 C CNN
+F 2 "" H 9600 4350 50  0001 C CNN
+F 3 "" H 9600 4350 50  0001 C CNN
+	1    9600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+4V #PWR?
+U 1 1 6127EE1C
+P 9400 4350
+F 0 "#PWR?" H 9400 4200 50  0001 C CNN
+F 1 "+4V" H 9415 4523 50  0000 C CNN
+F 2 "" H 9400 4350 50  0001 C CNN
+F 3 "" H 9400 4350 50  0001 C CNN
+	1    9400 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 6127F417
+P 10000 3950
+F 0 "#PWR?" H 10000 3800 50  0001 C CNN
+F 1 "+9V" H 10015 4123 50  0000 C CNN
+F 2 "" H 10000 3950 50  0001 C CNN
+F 3 "" H 10000 3950 50  0001 C CNN
+	1    10000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3950 10000 3950
+Connection ~ 9800 3950
+Wire Wire Line
+	9700 3950 9600 3950
+Wire Wire Line
+	9600 3950 9600 4350
+Connection ~ 9700 3950
+Wire Wire Line
+	9400 4350 9400 3950
+Wire Wire Line
+	9400 3950 9300 3950
+Connection ~ 9300 3950
+Wire Wire Line
+	2850 3650 2850 3300
+Wire Wire Line
+	2850 3300 3050 3300
+Wire Wire Line
+	2850 3750 2850 3900
+Wire Wire Line
+	2850 3900 3050 3900
 $EndSCHEMATC

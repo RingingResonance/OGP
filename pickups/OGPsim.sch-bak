@@ -152,11 +152,11 @@ $EndComp
 Wire Wire Line
 	4900 3850 4900 4150
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J3
+L Connector_Generic:Conn_01x02 J3
 U 1 1 6127CF70
 P 6400 3900
-F 0 "J3" H 6488 3814 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 6488 3723 50  0000 L CNN
+F 0 "J3" H 6480 3892 50  0000 L CNN
+F 1 "Conn_01x02_MountingPin" H 6480 3801 50  0000 L CNN
 F 2 "Connect:GS2" H 6400 3900 50  0001 C CNN
 F 3 "~" H 6400 3900 50  0001 C CNN
 	1    6400 3900

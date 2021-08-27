@@ -137,8 +137,8 @@ F 0 "D3" H 5050 3300 50  0000 C CNN
 F 1 "RB521S30T1G" H 5000 3200 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-523" H 5000 3400 50  0001 C CNN
 F 3 "~" H 5000 3400 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/onsemi/RB521S30T1G/920292" H 5000 3400 50  0001 C CNN "DigikeyLink"
-F 5 "RB521S30T1GOSCT-ND" H 5000 3400 50  0001 C CNN "DigikeyPart"
+F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMOSH-4E-TR-PBFREE/4807023" H 5000 3400 50  0001 C CNN "DigikeyLink"
+F 5 "1514-CMOSH-4ETRPBFREECT-ND" H 5000 3400 50  0001 C CNN "DigikeyPart"
 	1    5000 3400
 	-1   0    0    1   
 $EndComp
@@ -191,8 +191,8 @@ F 0 "D4" H 5000 3900 50  0000 C CNN
 F 1 "RB521S30T1G" H 4950 3800 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-523" H 5000 4000 50  0001 C CNN
 F 3 "~" H 5000 4000 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/onsemi/RB521S30T1G/920292" H 5000 4000 50  0001 C CNN "DigikeyLink"
-F 5 "RB521S30T1GOSCT-ND" H 5000 4000 50  0001 C CNN "DigikeyPart"
+F 4 "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMOSH-4E-TR-PBFREE/4807023" H 5000 4000 50  0001 C CNN "DigikeyLink"
+F 5 "1514-CMOSH-4ETRPBFREECT-ND" H 5000 4000 50  0001 C CNN "DigikeyPart"
 	1    5000 4000
 	-1   0    0    1   
 $EndComp
@@ -517,8 +517,8 @@ F 0 "C17" H 4350 3500 50  0000 C CNN
 F 1 "10nf" H 4350 3600 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 4588 3400 50  0001 C CNN
 F 3 "~" H 4550 3550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 4550 3550 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1028-1-ND" H 4550 3550 50  0001 C CNN "DigikeyPart"
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NFNC/3889585" H 4550 3550 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1499-1-ND" H 4550 3550 50  0001 C CNN "DigikeyPart"
 	1    4550 3550
 	-1   0    0    1   
 $EndComp
@@ -576,8 +576,8 @@ F 0 "C18" H 4450 4050 50  0000 C CNN
 F 1 "10nf" H 4350 4150 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 4588 4000 50  0001 C CNN
 F 3 "~" H 4550 4150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NNNC/3886686" H 4550 4150 50  0001 C CNN "DigikeyLink"
-F 5 "1276-1028-1-ND" H 4550 4150 50  0001 C CNN "DigikeyPart"
+F 4 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KB5NFNC/3889585" H 4550 4150 50  0001 C CNN "DigikeyLink"
+F 5 "1276-1499-1-ND" H 4550 4150 50  0001 C CNN "DigikeyPart"
 	1    4550 4150
 	-1   0    0    1   
 $EndComp

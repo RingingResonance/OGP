@@ -823,4 +823,24 @@ Connection ~ 7950 3650
 Wire Wire Line
 	8550 3650 8700 3650
 Connection ~ 8700 3650
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 61284E9C
+P 5850 2750
+F 0 "J7" V 5814 2562 50  0000 R CNN
+F 1 "Conn_01x02" V 5723 2562 50  0000 R CNN
+F 2 "Connect:GS2" H 5850 2750 50  0001 C CNN
+F 3 "~" H 5850 2750 50  0001 C CNN
+	1    5850 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 2650 6050 2400
+Wire Wire Line
+	6050 2400 6350 2400
+Connection ~ 6350 2400
+Wire Wire Line
+	6550 3000 6050 3000
+Wire Wire Line
+	6050 3000 6050 2750
 $EndSCHEMATC

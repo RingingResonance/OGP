@@ -1,0 +1,5 @@
+1: Organize and add silkscreen markings.
+
+2: Test all functions of circuit.
+
+3: Design analog postprocessing board that performs an absolute value function on each individual string waveform so that output will sound more like a normal pickup.

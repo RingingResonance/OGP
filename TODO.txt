@@ -1,4 +1,4 @@
-1: Organize and add silkscreen markings.
+DONE, 1: Organize and add silkscreen markings.
 
 2: Test all functions of circuit.
 
